@@ -19,7 +19,7 @@ All versions:
 
 Specific version:
 
-`docker pull oleksiit/gatling:3.2.1`
+`docker pull oleksiit/gatling:3.5.1`
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="oleksiit/gatling" github.com/oleksii-ti/gatling`
 
