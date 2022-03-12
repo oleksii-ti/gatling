@@ -1,6 +1,6 @@
 # Base Docker Image
 
-* [java:8-jdk-alpine](https://registry.hub.docker.com/_/java/)
+* [java:17-jdk-alpine](https://registry.hub.docker.com/_/java/)
 
 
 # Installation
@@ -19,7 +19,7 @@ All versions:
 
 Specific version:
 
-`docker pull oleksiit/gatling:3.5.1`
+`docker pull oleksiit/gatling:3.6.1`
 
 * [Alternatively] Build an image from Dockerfile: `docker build -t="oleksiit/gatling" github.com/oleksii-ti/gatling`
 
