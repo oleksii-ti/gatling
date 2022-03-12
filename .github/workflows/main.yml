@@ -28,4 +28,8 @@ jobs:
 
       - name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v2.4.3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          repository: peterevans/dockerhub-description
 
